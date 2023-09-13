@@ -2,6 +2,7 @@ import {Component} from "react";
 import "./NavBar.css";
 import logo from "../Assets/logo.JPG";
 import SignIn from "./SignIn";
+import Home from "./Home"
 
 class Navbar extends Component {
     state = {clicked:false};
@@ -17,11 +18,11 @@ class Navbar extends Component {
                     <img className="logo" src={logo} alt="This is a logo" />
                     <div>
                         <ul id="navbar"  className={this.state.clicked ? "#navbar active": "#navbar"}>
-                            <li> <a className="active" href="index.html">HOME</a></li>
-                            <li> <a href="index.html">SHOP LATEST</a></li>
-                            <li> <a href="index.html">WOMEN'S</a></li>
-                            <li> <a href="index.html">MENS</a></li>
-                            <li> <a href="index.html">ABOUT US</a></li>
+                            <li> <a className="active" href="Home">HOME</a></li>
+                            <li> <a href="index.html">PRODUCTS</a></li>
+                            {/* <li> <a href="index.html">WOMEN'S</a></li>
+                            <li> <a href="index.html">MENS</a></li> */}
+                            <li> <a href="index.html">CONTACT US</a></li>
                         </ul>
                     </div>
                     

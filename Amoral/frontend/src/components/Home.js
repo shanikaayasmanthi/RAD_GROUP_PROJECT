@@ -5,6 +5,7 @@ import NewRelease from "./NewRelease";
 import { Slides } from "../Data/Collection";
 import ImageSlider from "./ImageSlider";
 import SignIn from "./SignIn";
+import Footer from "./Footer";
 
 function Home() {
     return (
@@ -27,7 +28,10 @@ function Home() {
             <div className="Slider">
                 <ImageSlider/>
             </div>
-            <p>sffsdgsd</p>
+            <div>
+                <Footer/>
+            </div>
+            {/* <p>sffsdgsd</p> */}
         </div>
 
     )

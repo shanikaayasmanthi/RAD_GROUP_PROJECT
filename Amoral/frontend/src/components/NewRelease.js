@@ -8,7 +8,7 @@ function NewRelease({ image, name, price }) {
         <div className="catogery">
             <div className="container">
                 <a href="index.html"><img className="Image" src={image} alt="Category 1 Images" /> </a>
-                <button className="cart_btn">Add to Cart</button>
+                {/* <button className="cart_btn">Add to Cart</button> */}
 
             </div>
             <div className="details">
