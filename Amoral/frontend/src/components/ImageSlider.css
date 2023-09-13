@@ -1,0 +1,17 @@
+.slide_element{
+    margin-right: 10px;
+   padding-bottom: 10px;
+
+}
+@media screen and (max-width: 415px) {
+
+    .slide_element{
+        margin-right: 55px;
+    }
+}
+@media screen and (max-width: 300px) {
+
+    .slide_element{
+        margin-right: 35px;
+    }
+}

@@ -1,0 +1,80 @@
+.signIn{
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    /* display: flex; */
+    /* background-color: aqua; */
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 320px;
+    margin: 170px;
+    padding: 10px;
+    position: fixed;
+
+}
+
+.signIn h3{
+
+    justify-content: center;
+    align-items: center;
+    color: #2e2e2e;
+}
+
+.signInBlock{
+    /* background-color: aquamarine; */
+}
+.signInBlock label{
+
+    /* display: flex; */
+    float: left;
+    /* background-color: antiquewhite; */
+    width: 45px;
+    
+    margin-left:20px ;
+    
+}
+
+.signInBlock input[type="button"]{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 0px 110px;
+    padding: 10px;
+    width: 120px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.4s ease-in;
+
+}
+
+.signInBlock input[type="button"]:hover{
+    background-color: white;
+    color: #2e2e2e;
+    border: 1px solid #2e2e2e;
+}
+
+.signInBlock input[type="text"]{
+
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(160, 159, 159);
+    margin-bottom: 10px;
+    /* background-color: ; */
+
+}
+
+.newUsers{
+    margin: 0 0 0 45px;
+    gap: 10px;
+    float: left;
+    display:flex;
+    position: fixed;
+    justify-content: space-between;
+}
+
+
