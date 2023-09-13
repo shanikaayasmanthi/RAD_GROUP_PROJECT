@@ -1,5 +1,5 @@
-import Navbar from "./Navbar";
-import cover from "../Assets/cover.JPG"
+import Navbar from "./NavBar";
+import cover from "../Assets/cover.jpg"
 import "./Home.css";
 import NewRelease from "./NewRelease";
 import { Slides } from "../Data/Collection";
